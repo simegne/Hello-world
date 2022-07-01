@@ -6,3 +6,33 @@
     font-size: 25px;
     color: red;
   }
+container{
+  height: 100%;
+  display:grid;
+  grid-template-areas:
+    "a a " 
+    "b c" 
+    "d d";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 50px 50px;
+}
+.a{
+  background-color: red;
+  grid-area: a;
+  text-align: center;
+}
+.b{
+  background-color: greenyellow;
+  grid-area: b;
+   text-align: center;
+}
+.c{
+  background-color: blue;
+  grid-area: c;
+   text-align: center;
+}
+.d{
+  background-color: brown;
+  grid-area: d;
+   text-align: center;
+}
