@@ -13,8 +13,8 @@
   align-self: center;
   margin-left:500px;
   width: 500px;
-  height:400px
-  background-color: aquamarine;
+  height:400px;
+  background-color:aquamarine; 
   border:1px solid beige;
   height: 100%;
   display:grid;
@@ -43,7 +43,7 @@ form{
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding: 10px;px 25px;
+	padding: 10px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
 }
