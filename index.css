@@ -1,12 +1,21 @@
 .headre-form{
     text-align: center;
+    justify-content: center;
   }
   h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    color: red;
+    color: rgb(54, 159, 122);
+    text-align: center;
   }
-container{
+.container{
+  justify-content: center;
+  align-self: center;
+  margin-left:500px;
+  width: 500px;
+  height:400px
+  background-color: aquamarine;
+  border:1px solid beige;
   height: 100%;
   display:grid;
   grid-template-areas:
@@ -16,23 +25,62 @@ container{
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 50px 50px 50px;
 }
+form{
+  margin:20px;
+  text-align: center;
+  margin-left:200px;
+  
+  
+} 
+.myButton {
+	background-color:#7892c2;
+	border-radius: 10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+  margin-top: 20px;
+  margin-left: 0px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 10px;px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.box{
+  
+  
+  display:grid;
+  text-align:center;
+  align-items: center;
+}
 .a{
   background-color: red;
   grid-area: a;
-  text-align: center;
+  
 }
 .b{
   background-color: greenyellow;
   grid-area: b;
-   text-align: center;
+   
 }
 .c{
   background-color: blue;
   grid-area: c;
-   text-align: center;
+   
 }
 .d{
   background-color: brown;
   grid-area: d;
-   text-align: center;
+   
 }
